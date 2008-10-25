@@ -1,0 +1,47 @@
+<!DOCTYPE struts PUBLIC "-//Apache Software
+Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<package name="default" extends="struts-default">
+	
+		<!--  mapeamento das ações -->
+				
+		<action name="principal">
+			<result>/page/principal.jsp</result>
+		</action>
+		
+		 <action name="getAllPessoas" method="getAllPessoas" class="br.uniminas.action.CadastrarPessoaAction">
+            <result name="success">/page/pessoas.jsp</result>
+        </action>
+         <action name="getPessoa" method="getPessoa" class="br.uniminas.action.CadastrarPessoaAction">
+            <result name="success">/page/pessoa.jsp</result>
+        </action>
+     
+       <action name="setUpForInsertOrUpdate" method="setUpForInsertOrUpdate" class="br.uniminas.action.CadastrarPessoaAction">
+            <result name="success">/page/cadastroPessoaForm.jsp</result>
+        </action>
+     
+        <action name="insertOrUpdate" method="insertOrUpdate" class="br.uniminas.action.CadastrarPessoaAction">
+           <result name="success" type="redirect-action">getAllPessoas</result>
+           <result name="input">/page/cadastroPessoaForm.jsp</result>
+           <result name="erro">/page/erro.jsp</result>
+           </action>
+           
+           <action name="setUpForInsertOrUpdate2" method="setUpForInsertOrUpdate2" class="br.uniminas.action.CadastrarPessoaAction">
+            <result name="success">/page/consultaPessoaForm.jsp</result>
+        </action>
+           
+           <action name="consultarPessoa" method="consultaPessoa" class="br.uniminas.action.CadastrarPessoaAction">
+            <result name="success" type="redirect-action">getPessoa</result>
+             <result name="input">/page/consultaPessoaForm.jsp</result>
+        </action>
+           
+           
+           <action name="delete" method="deletePessoa" class="br.uniminas.action.CadastrarPessoaAction">
+           <result name="success" type="redirect-action">getAllPessoas</result>
+        </action>
+		
+	</package>
+	
+</struts>

@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+body {
+	font: 12px verdana, arial, helvetica, sans-serif;
+    background-image: url("/condominio/imagens/fundook.jpg");
+}
+table.wwFormTable {
+font: 12px verdana, arial, helvetica, sans-serif;
+border-width: 1px;
+border-color: #030;
+border-style: solid;
+color: #242;
+background-color: #FFFFFF;
+width: 30%;
+margin-left:35%;
+margin-right:60%;
+margin-top:20%;
+
+  /*  background-image: url("h:\pgi hoje\TELAS PGI OK\caixa.jpg");
+ 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left top;*/
+	
+}
+table.wwFormTable th {
+}
+table.wwFormTable tr td {
+}
+margin: 5px;
+padding: 5px;
+}
+
+.label {
+	
+}
+.errorMessage {
+color: red;
+font-size: 0.8em;
+}
+#headerDiv {
+border-style: solid;
+border-width: 1px 1px 0px;
+border-color: black;
+padding: 5px;
+background-color: #7a7;
+/* height: 22px; */
+height: 1.8em;
+ margin-bottom: 12px;
+}
+#buttonBar {
+border-width: 0px 1px 1px;
+border-style: solid;
+border-color: black;
+color: white;
+margin-bottom: 12px;
+background-color: #7a7;
+height: 1.6em;
+padding: 5px;
+}
+#appName {
+color: white;
+font-size: 1.8em;
+}
+#pageTitle {
+font-size: 1.4em;
+color: #dfd;
+clear: none;
+}
+#appName, #pageTitle {
+float: right;
+}
+#menuContainer {
+float: left;
+}
+#brandingContainer {
+float: right:
+text-align: right;
+}

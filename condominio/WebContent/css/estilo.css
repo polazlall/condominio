@@ -1,0 +1,118 @@
+.btn{
+width:250px;
+text-align:center;
+font-family:tahoma;
+font-size:16px;
+cursor:pointer;
+}
+
+.botao{
+width:85px;
+text-align:center;
+font-family:tahoma;
+font-size:16px;
+cursor:pointer;
+}
+
+body {
+	font: 12px verdana, arial, helvetica, sans-serif;
+    background-image: url("/condominio/imagens/fundook.jpg");
+}
+
+.content{
+margin:2px auto;
+padding:0px;
+width:686px;
+height:auto;
+background-image:url('file:./fundo_conteudo.jpg');
+background-repeat:no-repeat;
+background-attachment:scroll;
+background-position: center top
+
+}
+.header{
+height:180px;
+}
+.menu {
+padding:2px;
+margin:0px 0px 0px 10px;
+width:205px;
+
+float:left;
+}
+
+.menu_cadastro {
+padding:0px;
+margin:0px 0px 0px 0px;
+width:30px;
+float:left;
+}
+
+.menu2{
+margin:0px 0px 0px 0px;
+padding:2px;
+width:550px;
+font-family:"Trebuchet MS",tahoma,verdana;
+background:6495ED;
+color:#fff;
+font-size:100%;
+letter-spacing:2px;
+text-align:center;
+}
+
+
+.menu h3{
+margin:0px 0px 0px 0px;
+padding:3px;
+font-family:"Trebuchet MS",tahoma,verdana;
+background:6495ED;
+color:#fff;
+font-size:100%;
+letter-spacing:1px;
+}
+.menu ul{
+padding:0px 0px 0px 0px;
+margin:0px;
+list-style:none;
+}
+.menu ul li{
+padding:0px;
+margin:0px;
+display:block;
+}
+.menu ul li a{
+font-family:"Trebuchet MS",tahoma,verdana;
+font-size:11px;
+display:block;
+margin:0;
+padding:5px;
+height:1%;
+background:#F8F8F8;
+border-right:1px solid #C0C0C0;
+border-bottom:1px solid #C0C0C0;
+border-left:1px solid #C0C0C0;
+text-decoration:none;
+color:#333;
+}
+.menu ul li a:hover{
+background:#006699;
+color:#fff;
+}
+.conteudo{
+float:top;
+margin:px 0px 0px 250px;
+padding:0px;
+}
+.footer{
+margin:2px 0px 0px 0px;
+clear:both;
+padding-top:10px;
+padding-bottom:10px;
+font-family:"Trebuchet MS",tahoma,verdana;
+font-size:11px;
+color:#333;
+letter-spacing:1px;
+text-align:center;
+border-top:2px solid #006699;
+width:770px;
+}
