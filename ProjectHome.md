@@ -1,0 +1,1 @@
+sistema desenvolvido para administracao de condominios feito para a uniminas
